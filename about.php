@@ -1,14 +1,16 @@
 <?
-//SEO for about page
 
-$seotitle = "Про Мене - Приватний веб-розробник";
-$seodescription = "Розробка веб-сайту, полагодити вебсайт, оновити сайт, приватний веб-розробник";
-?>
-
-
-<?php
 require "./config/cfg.inc.php";
+require "./lang/lang.php";
+
+//SEO 
+$seotitle = $_TXT[7];
+$seodescription = $_TXT[8];
+
 require "./views/header.php";
-include "./views/pages/main.html";
+
+// Page Template
+include "./views/pages/about.html";
+
 require "./views/footer.php";
 ?>

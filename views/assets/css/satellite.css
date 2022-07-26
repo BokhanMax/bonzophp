@@ -1,3 +1,6 @@
 body {padding: 0 3%!important;}
 header {margin: 1% 0;}
 .navbar-brand {margin-right: 3%;}
+.navbar-lang {display: flex; align-content: center; justify-content: center; align-items: center;}
+input[type=submit] {text-transform: uppercase; padding: 6px 15px; cursor: pointer; border-radius: 8px; border: 1px; font-size: 15px;}
+input[type=submit]:hover {background: #dfdddd;}

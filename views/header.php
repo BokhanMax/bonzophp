@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="<?=$_SESSION["lang"]?>">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <meta name="description" content="<? echo $seodescription; ?>">
 </head>
 
-<body>
+<body lang="<?=$_SESSION["lang"]?>">
 <header>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
@@ -28,16 +28,16 @@
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
             <a class="navbar-item" href="<? echo $siteurl; ?>">
-                Головна
+                <?=$_TXT[0]?>
             </a>
 
             <a class="navbar-item" href="/about/">
-                Про Мене
+                <?=$_TXT[1]?>
             </a>
 
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
-                Послуги
+                <?=$_TXT[2]?>
                 </a>
 
                 <div class="navbar-dropdown">
@@ -56,13 +56,21 @@
                 </a>
                 </div>
             </div>
+            <a class="navbar-item" href="/contact/">
+                <?=$_TXT[3]?>
+            </a>
             </div>
 
             <div class="navbar-end">
+			<div class="navbar-lang">
+            <form method="post">
+                <input type="submit" name="lang" value="en" />
+                <input type="submit" name="lang" value="uk" />
+			</div>
             <div class="navbar-item">
                 <div class="buttons">
                 <a class="button is-primary">
-                    <strong>Замовити</strong>
+                    <strong><?=$_TXT[4]?></strong>
                 </a>
                 </div>
             </div>

@@ -1,6 +1,6 @@
-# bokhanmax.loc
+# BonzoPHP
 
-Written on simple PHP Framework named **Bonzo PHP** *[v0.11, from 2022/07/27]*
+Simple PHP Framework named **Bonzo PHP**
 
 > Bonzo is a nickname of John Bonham, the drummer for rock'n'roll legends Led Zeppelin
 

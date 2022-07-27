@@ -1,17 +1,21 @@
 <?
 
+// config files
 require "./core/cfg.inc.php";
 require "./core/lang/lang.php";
 
-//SEO vars
+// SEO variables
 $seotitle = $text_seo_about_title;
 $seodescription = $text_seo_about_decription;
 
+// header includes
 require "./views/header.php";
 require "./views/nav.php";
 
-// Page Template
+// page template include
 include "./views/pages/about.tpl.php";
 
+// footer includes
 require "./views/footer.php";
+
 ?>

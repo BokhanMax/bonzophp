@@ -1,8 +1,8 @@
-# BonzoPHP
+# Bonzo PHP
 
-Simple PHP Framework named **Bonzo PHP**
+## Simple PHP Framework named **Bonzo PHP**
 
-> Bonzo is a nickname of John Bonham, the drummer for rock'n'roll legends Led Zeppelin
+> Bonzo is a nickname of John Bonham, the drummer of rock'n'roll legends Led Zeppelin
 
 **Bonzo PHP** includes:
 

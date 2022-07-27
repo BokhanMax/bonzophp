@@ -12,9 +12,9 @@ $_TXT = [
  /* 9 */ 'Contact Me - Private Web Developer',
  /* 10 */ 'Contact me! Web help online! Fix the website, develop a new website',
  /* 11 */ '/views/assets/img/logoen.png',
- /* 12 */ '<div class="content">There will be a content <br> New string ha-ha</div>'
- /* 13 */ 
- /* 14 */ 
+ /* 12 */ 'Blog',
+ /* 13 */ 'Blog - Private Web Developer',
+ /* 14 */ 'Web help online! Fix the website, update the website, develop a new website',
  /* 15 */ 
  /* 16 */ 
  /* 17 */ 

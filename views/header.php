@@ -56,6 +56,9 @@
                 </a>
                 </div>
             </div>
+            <a class="navbar-item" href="/blog/">
+                <?=$_TXT[12]?>
+            </a>
             <a class="navbar-item" href="/contact/">
                 <?=$_TXT[3]?>
             </a>

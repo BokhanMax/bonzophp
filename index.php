@@ -8,6 +8,7 @@ $seotitle = $_TXT[5];
 $seodescription = $_TXT[6];
 
 require "./views/header.php";
+require "./views/nav.php";
 
 // Page Template
 include "./views/pages/main.php";

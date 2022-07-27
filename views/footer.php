@@ -1,13 +1,13 @@
 <footer class="footer">
 	<div class="columns">
 		<div class="column is-centered">
-			<? include "$widgetsDir/footer_left.php"; ?>
+			<? include "widgets/footer_left.php"; ?>
 		</div>
 		<div class="column is-centered">
-			<? include "$widgetsDir/footer_center.php"; ?>
+			<? include "widgets/footer_center.php"; ?>
 		</div>
 		<div class="column is-centered">
-			<? include "$widgetsDir/footer_right.php"; ?>
+			<? include "widgets/footer_right.php"; ?>
 		</div>
 	</div>
 	<div class="content has-text-centered">

@@ -11,7 +11,7 @@ require "./views/header.php";
 require "./views/nav.php";
 
 // Page Template
-include "./views/pages/blog.php";
+include "./views/pages/blog.tpl.php";
 
 require "./views/footer.php";
 ?>

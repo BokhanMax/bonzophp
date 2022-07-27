@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="<? echo $siteurl; ?>">
-                <img src="<?=$_TXT[11]?>" width="112" height="28">
+                <img src="<? echo $assetsDir; ?>/img/logo.png" width="112" height="28">
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -14,16 +14,16 @@
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
             <a class="navbar-item" href="<? echo $siteurl; ?>">
-                <?=$_TXT[0]?>
+                <? echo $text_nav_home; ?>
             </a>
 
             <a class="navbar-item" href="/about/">
-                <?=$_TXT[1]?>
+            <? echo $text_nav_about; ?>
             </a>
 
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
-                <?=$_TXT[2]?>
+                <? echo $text_nav_services; ?>
                 </a>
 
                 <div class="navbar-dropdown">
@@ -43,10 +43,10 @@
                 </div>
             </div>
             <a class="navbar-item" href="/blog/">
-                <?=$_TXT[12]?>
+            <? echo $text_nav_blog; ?>
             </a>
             <a class="navbar-item" href="/contact/">
-                <?=$_TXT[3]?>
+            <? echo $text_nav_contact; ?>
             </a>
             </div>
 
@@ -59,7 +59,7 @@
             <div class="navbar-item">
                 <div class="buttons">
                 <a class="button is-primary">
-                    <strong><?=$_TXT[4]?></strong>
+                    <strong><? echo $text_nav_button; ?></strong>
                 </a>
                 </div>
             </div>

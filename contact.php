@@ -3,9 +3,9 @@
 require "./core/cfg.inc.php";
 require "./core/lang/lang.php";
 
-//SEO 
-$seotitle = $_TXT[9];
-$seodescription = $_TXT[10];
+//SEO vars
+$seotitle = $text_seo_contact_title;
+$seodescription = $text_seo_contact_decription;
 
 require "./views/header.php";
 require "./views/nav.php";

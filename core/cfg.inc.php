@@ -1,6 +1,5 @@
 <?
-
-$siteurl = "http://bonzophp"; //CHANGE IT FOR ALL WEBSITE
+$siteurl = "http://bonzophp"; // ENTER YOUR SITE URL HERE WITHOUT TRAIL '/'
 
 $assetsDir = "$siteurl/views/assets";
 

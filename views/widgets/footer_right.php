@@ -1,1 +1,0 @@
-<div>Something here in right</div>

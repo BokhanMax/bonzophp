@@ -13,7 +13,7 @@ require "./views/header.php";
 require "./views/nav.php";
 
 // page template include
-include "./views/pages/blog.tpl.php";
+include "./views/pages/blog.tpl";
 
 // footer includes
 require "./views/footer.php";

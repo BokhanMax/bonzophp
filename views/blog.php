@@ -2,20 +2,20 @@
 
 // config files
 require "./app/cfg.inc.php";
-require "./app/lang/lang.php";
+require "./lang/lang.php";
 
 // SEO variables
 $seotitle = $text_seo_blog_title;
 $seodescription = $text_seo_blog_decription;
 
 // header includes
-require "./app/theme/header.php";
-require "./app/theme/nav.php";
+require "./theme/header.php";
+require "./theme/nav.php";
 
 // page template include
-include "./app/theme/pages/blog.tpl";
+include "./theme/pages/blog.tpl";
 
 // footer includes
-require "./app/theme/footer.php";
+require "./theme/footer.php";
 
 ?>

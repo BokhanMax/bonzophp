@@ -25,6 +25,6 @@
 <!-- COPYRIGHTS END -->
 
 </footer>
-
+<script src="<? echo $assetsDir; ?>/js/script.js"></script>
 </body>
 </html>

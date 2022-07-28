@@ -1,7 +1,10 @@
 <?
 
-$siteurl = "http://bonzophp"; // ENTER YOUR SITE URL HERE WITHOUT TRAIL '/'
+$siteurl = "http://bonzophp"; // ENTER YOUR SITE URL HERE WITHOUT '/'
 
-$assetsDir = "$siteurl/app/theme/assets";
+$assetsDir = "$siteurl/theme/assets";
 
+function bonzoheader() {
+	require "./theme/footer.tpl";
+	}
 ?>

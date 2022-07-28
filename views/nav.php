@@ -27,8 +27,8 @@
                 </a>
 
                 <div class="navbar-dropdown">
-                <a class="navbar-item">
-                    About
+                <a class="navbar-item" href="/webdevelopment/">
+                <? echo $text_nav_webdevel; ?>
                 </a>
                 <a class="navbar-item">
                     Jobs

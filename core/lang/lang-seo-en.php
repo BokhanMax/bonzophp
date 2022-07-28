@@ -15,3 +15,7 @@ $text_seo_blog_decription = "Develop website with Bonzo PHP Framework";
 // CONTACT
 $text_seo_contact_title = "Our Contacts - Bonzo Project";
 $text_seo_contact_decription = "Develop website with Bonzo PHP Framework";
+
+// WEB DEVELOPING
+$text_seo_webdevel_title = "Web Development - Bonzo Project";
+$text_seo_webdevel_decription = "Develop website with Bonzo PHP Framework";

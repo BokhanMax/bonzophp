@@ -6,6 +6,7 @@ $text_nav_about = "About Us";
 $text_nav_services = "Services";
 $text_nav_blog = "Blog";
 $text_nav_contact = "Contacts";
+$text_nav_webdevel = "Web Development";
 $text_nav_button = "Hire Us";
 
 // HEADER

@@ -6,6 +6,7 @@ $text_nav_about = "Про Нас";
 $text_nav_services = "Наші Послуги";
 $text_nav_blog = "Блог";
 $text_nav_contact = "Контакти";
+$text_nav_webdevel = "Розробка Сайтів";
 $text_nav_button = "Замовити";
 
 // HEADER

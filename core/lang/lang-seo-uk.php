@@ -15,3 +15,7 @@ $text_seo_blog_decription = "Розробка веб-сайтів за допо�
 // CONTACT
 $text_seo_contact_title = "Контакти - Bonzo Project";
 $text_seo_contact_decription = "Розробка веб-сайтів за допомогою фреймворку Bonzo";
+
+// WEB DEVELOPING
+$text_seo_webdevel_title = "Розробка Сайтів - Bonzo Project";
+$text_seo_webdevel_decription = "Розробка веб-сайтів за допомогою фреймворку Bonzo";

@@ -27,7 +27,7 @@
                 </a>
 
                 <div class="navbar-dropdown">
-                <a class="navbar-item" href="/webdevelopment/">
+                <a class="navbar-item" href="/services/webdevelopment/">
                 <? echo $text_nav_webdevel; ?>
                 </a>
                 <a class="navbar-item">

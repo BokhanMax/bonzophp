@@ -1,21 +1,13 @@
 <?
 
-// config files
-require "./core/cfg.inc.php";
-require "./core/lang/lang.php";
+/*
+*
+* BONZO PHP
+* version 0.1beta
+*
+*/
 
-// SEO variables
-$seotitle = $text_seo_home_title;
-$seodescription = $text_seo_home_decription;
+require './home.php';
 
-// header includes
-require "./views/header.php";
-require "./views/nav.php";
-
-// page template include
-include "./views/pages/home.tpl";
-
-// footer includes
-require "./views/footer.php";
 
 ?>

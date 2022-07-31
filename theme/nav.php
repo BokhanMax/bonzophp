@@ -30,15 +30,12 @@
                 <a class="navbar-item" href="/services/webdevelopment/">
                 <? echo $text_nav_webdevel; ?>
                 </a>
-                <a class="navbar-item">
-                    Jobs
-                </a>
-                <a class="navbar-item">
-                    Contact
+                <a class="navbar-item" href="/services/webdevelopment/">
+                <? echo $text_nav_webdevel; ?>
                 </a>
                 <hr class="navbar-divider">
                 <a class="navbar-item">
-                    Report an issue
+                    SEO
                 </a>
                 </div>
             </div>
@@ -58,7 +55,7 @@
 			</div>
             <div class="navbar-item">
                 <div class="buttons">
-                <a class="button is-primary">
+                <a class="button is-link">
                     <strong><? echo $text_nav_button; ?></strong>
                 </a>
                 </div>

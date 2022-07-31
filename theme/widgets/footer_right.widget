@@ -1,1 +1,4 @@
-<center>Something here in RIGHT</center>
+<div style="text-align: center;">
+<h2 class="title is-3"><? echo $text_widget_footerright_title; ?></h2><br>
+<div class="subtitle is-5"><? echo $text_widget_footerright_content; ?></div><br>
+</div>

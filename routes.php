@@ -1,6 +1,6 @@
 <?php
 
-require_once("{$_SERVER['DOCUMENT_ROOT']}/app/router.php");
+require_once("./core/router.php");
 
 any('/', 'views/home.php');
 any('/blog','views/blog.php');
@@ -48,3 +48,4 @@ any('/blog/welcomepost','views/blog/welcomepost.php');
 // ##################################################
 // ##################################################
 // any can be used for GETs or POSTs
+

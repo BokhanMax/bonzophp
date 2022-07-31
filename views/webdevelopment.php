@@ -1,7 +1,7 @@
 <?
 
 // config files
-require "./app/cfg.inc.php";
+require "./core/cfg.inc.php";
 require "./lang/lang.php";
 
 // SEO variables

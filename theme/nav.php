@@ -30,8 +30,8 @@
                 <a class="navbar-item" href="/services/webdevelopment/">
                 <? echo $text_nav_webdevel; ?>
                 </a>
-                <a class="navbar-item" href="/services/webdevelopment/">
-                <? echo $text_nav_webdevel; ?>
+                <a class="navbar-item" href="/services/seo/">
+                <? echo $text_nav_seo; ?>
                 </a>
                 <hr class="navbar-divider">
                 <a class="navbar-item">

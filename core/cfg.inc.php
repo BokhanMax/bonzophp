@@ -1,10 +1,10 @@
 <?
 
-$siteurl = "http://bonzophp"; // ENTER YOUR SITE URL HERE WITHOUT '/'
+$siteurl = 'http://BonzoPHP'; // ENTER YOUR SITE URL HERE WITHOUT '/'
+$adminmail = 'bokhanmax@gmail.com'; // ENTER ADMIN MAIL 
 
 $assetsDir = "$siteurl/theme/assets";
 $widgetsDir = "./theme/widgets";
-
 
 function bonzoheader() {
 	require "./theme/header.php";

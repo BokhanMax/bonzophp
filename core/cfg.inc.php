@@ -1,6 +1,6 @@
 <?
 
-$siteurl = 'http://BonzoPHP'; // ENTER YOUR SITE URL HERE WITHOUT '/'
+$siteurl = 'http://BonzoPHP.loc'; // ENTER YOUR SITE URL HERE WITHOUT '/'
 $adminmail = 'bokhanmax@gmail.com'; // ENTER ADMIN MAIL 
 
 $assetsDir = "$siteurl/theme/assets";

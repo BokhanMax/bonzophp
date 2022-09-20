@@ -11,6 +11,8 @@ $text_seo_about_decription = "Develop website with Bonzo Project";
 // BLOG
 $text_seo_blog_title = "Blog - Bonzo Project";
 $text_seo_blog_decription = "Develop website with Bonzo Project";
+$text_seo_blogpost29072022_title = "First Post Title";
+$text_seo_blogpost29072022_decription = "First Post Description";
 
 // CONTACT
 $text_seo_contact_title = "Our Contacts - Bonzo Project";
